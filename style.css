@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: white;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  max-width: 100vw;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.icon {
+  position: absolute;
+  z-index: 1;
+  top: 2%;
+  right: 5%;
+}
+
+.logo {
+  width: 80%;
+  margin: auto;
+}
+
+.two, .three, .four {
+  padding: 0 2.0rem;
+}
+
+/* section one */
+.home {
+ background: url(./images/amor_que_nao_tem_fim.jpg) no-repeat center center/cover;
+ height: 30.0rem;
+}
+
+button {
+  margin: 3.0rem 3.0rem 0 3.0rem;
+  padding: 1.0rem;
+  border: none;
+  border-radius: .8rem;
+  height: 6rem;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+/* section two */
+.two h2 {
+  margin-bottom: 1.0rem;
+}
+
+.two p {
+  text-align: left;
+}
+
+/* section three */
+.three {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1.0rem;
+}
+
+.three p {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.four h2 {
+  margin-bottom: 1.0rem;
+}
+
+.four fieldset {
+  border: none;
+  padding: 0 4.0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.four fieldset input {
+  border: none;
+  border-radius: 4px;
+  height: 2.5rem;
+  padding-left: 1.0rem;
+}
+
+.four fieldset textarea {
+  border: none;
+  border-radius: 4px;
+  height: 10rem;
+  padding-left: 1.0rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+} 
+
+.five h2 {
+  margin-bottom: 1.0rem;
+}
+
+.social {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.0rem;
+}
+
+.social img {
+  width: 75%;
+  object-fit: cover;
+}
